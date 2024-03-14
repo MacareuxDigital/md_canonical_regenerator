@@ -2,6 +2,7 @@
 
 ![Version](https://img.shields.io/badge/version-0.0.1-brightgreen.svg)
 ![Concrete CMS](https://img.shields.io/badge/concrete%20cms-8.x%20%7C%209.x-orange.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Macareux Canonical Regenerator is a Concrete CMS package that provides a command-line interface to regenerate canonical URLs under a specific page path.
 
@@ -26,3 +27,4 @@ To regenerate canonical URLs under a specific page path, use the following comma
 
 ```bash
 ./concrete/bin/concrete5 md:canonical:regenerate --page-path=/your-page-path
+```
